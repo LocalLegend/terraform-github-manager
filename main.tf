@@ -60,7 +60,7 @@ resource "github_repository_environment" "prod" {
   count = length(var.secrets_prod) == 0 ? 0 : 1
   repository   = github_repository.self.name
   reviewers {
-    users = [data.github_user.current.id]
+    users = [data.github_user.reviewer.id]
   }
   deployment_branch_policy {
     protected_branches     = false
