@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+### [1.0.4](https://github.com/LocalLegend/terraform-github-manager/compare/v1.0.3...v1.0.4) (2022-01-19)
+
+
+### Bug Fixes
+
+* protected_branches ([d1fdafe](https://github.com/LocalLegend/terraform-github-manager/commit/d1fdafea1e593a20a3dd9034a18955bfd42e85f7))
+
 ### [1.0.3](https://github.com/LocalLegend/terraform-github-manager/compare/v1.0.2...v1.0.3) (2022-01-19)
 
 
