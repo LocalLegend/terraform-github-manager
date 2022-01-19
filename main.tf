@@ -63,7 +63,7 @@ resource "github_repository_environment" "prod" {
     users = [data.github_user.reviewer.id]
   }
   deployment_branch_policy {
-    protected_branches     = false
+    protected_branches     = true
     custom_branch_policies = false
   }
 }
