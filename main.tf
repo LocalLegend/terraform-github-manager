@@ -5,7 +5,7 @@ data "github_user" "reviewer" {
 resource "github_repository" "self" {
   name         = var.repo.name
   description  = var.repo.description
-  homepage_url = var.homepage_url
+  homepage_url = var.repo.homepage_url
 
   allow_merge_commit      = true
   delete_branch_on_merge  = true
