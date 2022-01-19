@@ -1,7 +1,8 @@
 variable "repo" {
   type = object({
-    name        = string
-    description = string
+    name         = string
+    description  = string
+    homepage_url = string
     })
 }
 
